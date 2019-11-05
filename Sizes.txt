@@ -1,0 +1,14 @@
+Holes:
+10 mil
+32 mil
+40 mil
+48 mil
+
+Pads:
+Any 100 mil spaced hole has a 70 mil pad where soldered and hole+20 mil on the other layers
+
+Font:
+Height = 40 mil
+Stroke width = 4 mil
+
+Silk-screen outline = 10 mil
