@@ -1,32 +1,128 @@
+name: "DC_Circular_K375A"
+author: "J Taylor"
+  units: NM
+  sel_rect: -7981000 -7004000 8254000 4881000
+  ref_text: 1016000 -7000000 3000000 0 101600
+  value_text: 1016000 -7000000 -4000000 0 101600
+  centroid: 1 0 0 0
+  outline_polyline: 254000 4900000 -4500000
+    next_corner: 6900000 -4500000 0
+    next_corner: 6900000 -2000000 0
+  outline_polyline: 254000 1100000 -4500000
+    next_corner: -7600000 -4500000 0
+    next_corner: -7600000 4500000 0
+    next_corner: 6900000 4500000 0
+    next_corner: 6900000 2000000 0
+  n_pins: 3
+    pin: "1" 2500000 0 0 0
+      top_pad: 1 3500000 0 0 0
+      inner_pad: 0 1524000 0 0 0 0
+      bottom_pad: 1 3500000 0 0 0
+    pin: "2" 3000000 6000000 0 0
+      top_pad: 1 4000000 0 0 0
+      inner_pad: 0 1524000 0 0 0 0
+      bottom_pad: 1 4000000 0 0 0
+    pin: "3" 2500000 3000000 -5000000 0
+      top_pad: 1 3500000 0 0 0
+      inner_pad: 0 1524000 0 0 0 0
+      bottom_pad: 1 3500000 0 0 0
+
+name: "N3712-012-01"
+author: "J Taylor"
+source: "MEC"
+description: "RJ-45"
+units: MIL
+sel_rect: -365 -415 365 415
+ref_text: 40 -200 100 0 4
+value_text: 40 -200 -150 0 4
+centroid: 1 0 0 0
+outline_polyline: 10 -300 50
+next_corner: -300 400 0
+next_corner: 300 400 0
+next_corner: 300 50 0
+outline_polyline: 10 -300 -50
+next_corner: -300 -275 0
+next_corner: -350 -275 0
+next_corner: -350 -325 0
+next_corner: -300 -325 0
+next_corner: -300 -400 0
+next_corner: 300 -400 0
+next_corner: 300 -325 0
+next_corner: 350 -325 0
+next_corner: 350 -275 0
+next_corner: 300 -275 0
+next_corner: 300 -50 0
+n_pins: 10
+pin: "9" 128 -225 0 0
+top_pad: 1 170 0 0 0
+inner_pad: 0 145 0 0 0 0
+bottom_pad: 1 170 0 0 0
+pin: "10" 128 225 0 0
+top_pad: 1 170 0 0 0
+inner_pad: 0 145 0 0 0 0
+bottom_pad: 1 170 0 0 0
+pin: "1" 40 -175 250 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "3" 40 -75 250 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "5" 40 25 250 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "7" 40 125 250 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "2" 40 -125 350 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "4" 40 -25 350 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "6" 40 75 350 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+pin: "8" 40 175 350 0
+top_pad: 1 60 0 0 0
+inner_pad: 0 60 0 0 0 0
+bottom_pad: 1 70 0 0 0
+
 name: "Push-Button-SMT"
 author: "J Taylor"
-  units: MIL
-  sel_rect: -178 -138 178 138
-  ref_text: 40 -60 -180 0 4
-  value_text: 40 -100 140 0 4
-  centroid: 0 0 0 0
-  outline_polyline: 10 90 120
-    next_corner: -90 120 0
-  outline_polyline: 10 -120 40
-    next_corner: -120 -40 0
-  outline_polyline: 10 -90 -120
-    next_corner: 90 -120 0
-  outline_polyline: 10 120 -40
-    next_corner: 120 40 0
-  outline_polyline: 10 0 60
-    next_corner: 60 0 1
-    next_corner: 0 -60 1
-    next_corner: -60 0 1
-    close_polyline: 1
-  n_pins: 4
-    pin: "2" 0 -128 -88 90
-      top_pad: 1 80 0 0 0
-    pin: "4" 0 128 -88 90
-      top_pad: 1 80 0 0 0
-    pin: "3" 0 128 88 90
-      top_pad: 1 80 0 0 0
-    pin: "1" 0 -128 88 90
-      top_pad: 1 80 0 0 0
+units: MIL
+sel_rect: -178 -138 178 138
+ref_text: 40 -60 -180 0 4
+value_text: 40 -100 140 0 4
+centroid: 0 0 0 0
+outline_polyline: 10 90 120
+next_corner: -90 120 0
+outline_polyline: 10 -120 40
+next_corner: -120 -40 0
+outline_polyline: 10 -90 -120
+next_corner: 90 -120 0
+outline_polyline: 10 120 -40
+next_corner: 120 40 0
+outline_polyline: 10 0 60
+next_corner: 60 0 1
+next_corner: 0 -60 1
+next_corner: -60 0 1
+close_polyline: 1
+n_pins: 4
+pin: "2" 0 -128 -88 90
+top_pad: 1 80 0 0 0
+pin: "4" 0 128 -88 90
+top_pad: 1 80 0 0 0
+pin: "3" 0 128 88 90
+top_pad: 1 80 0 0 0
+pin: "1" 0 -128 88 90
+top_pad: 1 80 0 0 0
 
 name: "Clip-A23-SMT"
 author: "J Taylor"
